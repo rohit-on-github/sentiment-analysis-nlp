@@ -69,3 +69,21 @@ The data should have at least two columns: one for the **review text** and one f
 ## Results
 
 After running the script, you can expect an output similar to:
+
+Accuracy: 0.85
+
+Classification Report: precision recall f1-score support
+
+Negative       0.80      1.00      0.89         1
+Positive       1.00      0.75      0.86         1
+
+accuracy                           0.85         2
+
+macro avg 0.90 0.88 0.87 2 weighted avg 0.90 0.85 0.87 2
+
+You can experiment with different models or datasets for better accuracy.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
